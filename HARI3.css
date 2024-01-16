@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a {
+    display: grid;
+    width: 210px;
+    border: 3px solid black;
+    padding: 10px;
+    grid-template-columns: repeat(4,lfr);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: "a a a a"
+                         "b c d e"
+                         "f g h o" 
+                         "i j k l"
+                         "m p n n";
+column-gap: 10px;
+row-gap: 10px;
+background-color: rgb(184, 169, 169);
+}
+.kal {
+    grid-area: a;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.satu {
+    grid-area: b;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dua {
+    grid-area: c;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tiga {
+    grid-area: d;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus {
+    grid-area: e;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empat {
+    grid-area: f;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lima {
+    grid-area: g;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enam {
+    grid-area: h;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tujuh {
+    grid-area: i;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delapan {
+    grid-area: j;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sembilan {
+    grid-area: k;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.min {
+    grid-area: l;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nol {
+    grid-area: m;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.samadengan {
+    grid-area: n;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.satu:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+.dua:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.tiga:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.empat:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.lima:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.enam:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.tujuh:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.delapan:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.sembilan:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.nol:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.plus:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.min:hover {
+    background-color: aqua;
+    cursor: crosshair;
+}
+.samadengan:hover{
+    background-color: aqua;
+    cursor: crosshair;
+}
+.kali{
+    grid-area: o;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kali:hover{
+    background-color: aqua;
+    cursor: crosshair;
+}
+.bagi {
+    grid-area: p;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bagi:hover{
+    background-color: aqua;
+    cursor: crosshair;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

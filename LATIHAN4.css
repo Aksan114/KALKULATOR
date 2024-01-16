@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.a {
+    background-color: red;
+    text-align: center;
+    padding: 20px
+}
+body {
+    background-image: ;
+    height: 500px;
+}
+.b{
+    background-color: black;
+    height: 30px;
+}
+.c {
+    padding: 30px;
+    background-color: blue;
+}
+.d{
+    padding: 30px;
+    background-color: purple;
+}
+.e {
+    display: flex;
+}

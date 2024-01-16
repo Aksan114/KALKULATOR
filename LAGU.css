@@ -1,0 +1,43 @@
+body {
+    border: 10px solid purple; 
+    border-radius: 20px;
+    width: 310px;
+    height: 430px;
+}
+.b {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.c {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    transform: rotate(90deg);
+}
+.a {
+    float: right;
+    transform: rotate(90dg);
+}
+.foto {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.d {
+    text-align: center;
+    float: right;
+    margin: 30px;
+    height: 30px;
+    width: 90px;
+    background-color: aqua;
+    border-radius: 5px; 
+}
+.e {
+    text-align: center;
+    float: left;
+    background-color: palevioletred;height: 30px;width: 100px; margin: 10px; 
+    border: 3px solid purple;
+    border-radius: 10px;
+    margin: 25px
+}

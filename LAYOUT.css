@@ -1,0 +1,51 @@
+.kotak {
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+    border: 5px dashed; border-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inline{
+    display: inline;
+    background-color: aqua;
+}
+.blok1 {
+    background-color: blueviolet;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+.flex-container .a {
+    background-color: blueviolet;
+    border: 2px;
+}
+.flex-container .b {
+    background-color: blueviolet;
+}
+.relative {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.absolute {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    position: absolute;
+    right: 10px;
+
+}
+.navbar .f {
+    background-color: aqua;
+}
+.navbar .g {
+    
+}
